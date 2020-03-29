@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/android_navigation"
+    app:startDestination="@+id/show_fragment">
+
+
+    <fragment
+        android:id="@+id/edit_fragment"
+        android:name="com.sedi.learnall.ui.EditFragment"
+        tools:layout="@layout/edit_layout">
+    </fragment>
+
+    <fragment
+        android:id="@+id/learn_fragment"
+        android:name="com.sedi.learnall.ui.LearnFragment"
+        tools:layout="@layout/learn_layout" />
+
+    <fragment
+        android:id="@+id/show_fragment"
+        android:name="com.sedi.learnall.ui.ShowFragment"
+        tools:layout="@layout/show_layout" >
+        <action
+            android:id="@+id/action_show_fragment_to_edit_fragment"
+            app:destination="@id/edit_fragment" />
+        <action
+            android:id="@+id/action_show_fragment_to_learn_fragment"
+            app:destination="@id/learn_fragment" />
+    </fragment>
+
+</navigation>

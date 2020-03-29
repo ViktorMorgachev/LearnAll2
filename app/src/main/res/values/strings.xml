@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Ocr dependencies cannot be downloaded due to low device storage</string>
+    <string name="title_activity_main">Ocr Detector Sample</string>
+    <string name="ocr_header">Click &quot;Detect Text&quot; to detect text</string>
+    <string name="read_text">Detect Text</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="ocr_success">Text read successfully</string>
+    <string name="ocr_failure">No text captured</string>
+    <string name="ocr_error">"Error reading text: %1$s"</string>
+    <string name="input_text_other">Иностранный язык</string>
+    <string name="input_text_native">Родной язык</string>
+    <string name="no_recognition_available">Голосовой ввод недоступен</string>
+    <string name="text_color">Цвет текста</string>
+    <string name="card_color">Цвет фона</string>
+    <string name="text_font">Стиль</string>
+    <string name="select_color">Выберите цвет</string>
+    <string name="empty_list">Список пустой</string>
+    <string name="change">Изменить</string>
+    <string name="delete">Удалить</string>
+    <string name="add_сard">Добавить</string>
+    <string name="cards">Все карты</string>
+    <string name="learn">Учить</string>
+    <string name="add_at_least_word">Добавьте хотя-бы одно слово</string>
+</resources>
